@@ -1,0 +1,370 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>流程</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/流程/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/流程/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1897" class="ax_default flow_shape">
+        <div id="u1897_div" class=""></div>
+        <div id="u1897_text" class="text ">
+          <p><span>初始数据：</span></p><ul><li style=""><span>保单量</span></li><li style=""><span>服务发生率</span></li></ul>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1898" class="ax_default flow_shape">
+        <div id="u1898_div" class=""></div>
+        <div id="u1898_text" class="text ">
+          <p><span>更新数据：</span></p><ul><li style=""><span>服务量 保单量*服务发生率*平均使用次数(无限次按一次计算)</span></li></ul>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1899" class="ax_default connector1">
+        <img id="u1899_seg0" class="img " src="images/流程/u1899_seg0.svg" alt="u1899_seg0"/>
+        <img id="u1899_seg1" class="img " src="images/流程/u1899_seg1.svg" alt="u1899_seg1"/>
+        <img id="u1899_seg2" class="img " src="images/流程/u1899_seg2.svg" alt="u1899_seg2"/>
+        <div id="u1899_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1900" class="ax_default flow_shape">
+        <div id="u1900_div" class=""></div>
+        <div id="u1900_text" class="text ">
+          <p><span>实际数据：</span></p><ul><li style=""><span>保单量</span></li><li style=""><span>服务使用量</span></li></ul><p><span>更新数据：</span></p><ul><li style=""><span>剩余服务量</span></li><li style=""><span>服务实际发生率</span></li><li style=""><span>计算均值</span></li><li style=""><span>计算方差</span></li><li style=""><span>下期服务发生率=均值</span></li><li style=""><span>预估下期服务发生量</span></li></ul>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1901" class="ax_default connector1">
+        <img id="u1901_seg0" class="img " src="images/流程/u1901_seg0.svg" alt="u1901_seg0"/>
+        <img id="u1901_seg1" class="img " src="images/流程/u1901_seg1.svg" alt="u1901_seg1"/>
+        <img id="u1901_seg2" class="img " src="images/流程/u1901_seg2.svg" alt="u1901_seg2"/>
+        <div id="u1901_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u1902" class="ax_default flow_shape">
+        <img id="u1902_img" class="img " src="images/流程/u1902.svg"/>
+        <div id="u1902_text" class="text ">
+          <p><span>预估下期服务发生量&gt;剩余服务量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1903" class="ax_default connector1">
+        <img id="u1903_seg0" class="img " src="images/流程/u1903_seg0.svg" alt="u1903_seg0"/>
+        <img id="u1903_seg1" class="img " src="images/流程/u1903_seg1.svg" alt="u1903_seg1"/>
+        <img id="u1903_seg2" class="img " src="images/流程/u1903_seg2.svg" alt="u1903_seg2"/>
+        <div id="u1903_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1904" class="ax_default connector1">
+        <img id="u1904_seg0" class="img " src="images/流程/u1904_seg0.svg" alt="u1904_seg0"/>
+        <img id="u1904_seg1" class="img " src="images/流程/u1904_seg1.svg" alt="u1904_seg1"/>
+        <img id="u1904_seg2" class="img " src="images/流程/u1904_seg2.svg" alt="u1904_seg2"/>
+        <img id="u1904_seg3" class="img " src="images/流程/u1904_seg3.svg" alt="u1904_seg3"/>
+        <div id="u1904_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1905" class="ax_default label">
+        <div id="u1905_div" class=""></div>
+        <div id="u1905_text" class="text ">
+          <p><span>Y</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1906" class="ax_default flow_shape">
+        <div id="u1906_div" class=""></div>
+        <div id="u1906_text" class="text ">
+          <p><span>更新数据：</span></p><p><span>库存超出量：从库存超出量扣减需要补充的量</span></p><p><span>服务剩余量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u1907" class="ax_default flow_shape">
+        <img id="u1907_img" class="img " src="images/流程/u1902.svg"/>
+        <div id="u1907_text" class="text ">
+          <p><span>库存超出量&gt;预估下期服务发生量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1908" class="ax_default connector1">
+        <img id="u1908_seg0" class="img " src="images/流程/u1908_seg0.svg" alt="u1908_seg0"/>
+        <img id="u1908_seg1" class="img " src="images/流程/u1908_seg1.svg" alt="u1908_seg1"/>
+        <img id="u1908_seg2" class="img " src="images/流程/u1908_seg2.svg" alt="u1908_seg2"/>
+        <img id="u1908_seg3" class="img " src="images/流程/u1908_seg3.svg" alt="u1908_seg3"/>
+        <div id="u1908_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1909" class="ax_default label">
+        <div id="u1909_div" class=""></div>
+        <div id="u1909_text" class="text ">
+          <p><span>Y</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1910" class="ax_default connector1">
+        <img id="u1910_seg0" class="img " src="images/流程/u1910_seg0.svg" alt="u1910_seg0"/>
+        <img id="u1910_seg1" class="img " src="images/流程/u1910_seg1.svg" alt="u1910_seg1"/>
+        <img id="u1910_seg2" class="img " src="images/流程/u1910_seg2.svg" alt="u1910_seg2"/>
+        <img id="u1910_seg3" class="img " src="images/流程/u1910_seg3.svg" alt="u1910_seg3"/>
+        <div id="u1910_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1911" class="ax_default flow_shape">
+        <div id="u1911_div" class=""></div>
+        <div id="u1911_text" class="text ">
+          <p><span>更新数据：</span></p><p><span>库存超存量移至服务剩余量</span></p><p><span>实际下期补仓量：预估下期服务发生量*3-剩余服务量-库存超出量&gt;0</span></p><p><span>库存超存量：0</span></p><p><span>服务剩余量更新</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1912" class="ax_default flow_shape">
+        <div id="u1912_div" class=""></div>
+        <div id="u1912_text" class="text ">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial', sans-serif;font-weight:700;color:#D9001B;">预警：</span></p><p><span style="font-family:'ArialMT', 'Arial', sans-serif;font-weight:400;">实际下期补仓量</span></p><p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial', sans-serif;font-weight:700;color:#D9001B;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1913" class="ax_default connector1">
+        <img id="u1913_seg0" class="img " src="images/流程/u1913_seg0.svg" alt="u1913_seg0"/>
+        <img id="u1913_seg1" class="img " src="images/流程/u1913_seg1.svg" alt="u1913_seg1"/>
+        <img id="u1913_seg2" class="img " src="images/流程/u1913_seg2.svg" alt="u1913_seg2"/>
+        <div id="u1913_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1914" class="ax_default label">
+        <div id="u1914_div" class=""></div>
+        <div id="u1914_text" class="text ">
+          <p><span>下一周期迭代</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1915" class="ax_default connector1">
+        <img id="u1915_seg0" class="img " src="images/流程/u1915_seg0.svg" alt="u1915_seg0"/>
+        <img id="u1915_seg1" class="img " src="images/流程/u1915_seg1.svg" alt="u1915_seg1"/>
+        <img id="u1915_seg2" class="img " src="images/流程/u1915_seg2.svg" alt="u1915_seg2"/>
+        <img id="u1915_seg3" class="img " src="images/流程/u1915_seg3.svg" alt="u1915_seg3"/>
+        <div id="u1915_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1916" class="ax_default connector1">
+        <img id="u1916_seg0" class="img " src="images/流程/u1916_seg0.svg" alt="u1916_seg0"/>
+        <img id="u1916_seg1" class="img " src="images/流程/u1916_seg1.svg" alt="u1916_seg1"/>
+        <img id="u1916_seg2" class="img " src="images/流程/u1916_seg2.svg" alt="u1916_seg2"/>
+        <img id="u1916_seg3" class="img " src="images/流程/u1916_seg3.svg" alt="u1916_seg3"/>
+        <div id="u1916_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1917" class="ax_default paragraph">
+        <div id="u1917_div" class=""></div>
+        <div id="u1917_text" class="text ">
+          <p><span>服务超出量：每次多余的补充的服务量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1918" class="ax_default flow_shape">
+        <div id="u1918_div" class=""></div>
+        <div id="u1918_text" class="text ">
+          <p><span>无需预警</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1919" class="ax_default label">
+        <div id="u1919_div" class=""></div>
+        <div id="u1919_text" class="text ">
+          <p><span>N</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u1920" class="ax_default flow_shape">
+        <img id="u1920_img" class="img " src="images/流程/u1902.svg"/>
+        <div id="u1920_text" class="text ">
+          <p><span>补仓量&gt;实际下期补仓量总和</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1921" class="ax_default flow_shape">
+        <div id="u1921_div" class=""></div>
+        <div id="u1921_text" class="text ">
+          <p><span>每个保险公司更新剩余服务量</span></p><p><span>更新库存超出量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1922" class="ax_default flow_shape">
+        <div id="u1922_div" class=""></div>
+        <div id="u1922_text" class="text ">
+          <p><span>按照保险产品创建时间顺序更新剩余服务量</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1923" class="ax_default connector1">
+        <img id="u1923_seg0" class="img " src="images/流程/u1923_seg0.svg" alt="u1923_seg0"/>
+        <img id="u1923_seg1" class="img " src="images/流程/u1923_seg1.svg" alt="u1923_seg1"/>
+        <img id="u1923_seg2" class="img " src="images/流程/u1923_seg2.svg" alt="u1923_seg2"/>
+        <img id="u1923_seg3" class="img " src="images/流程/u1923_seg3.svg" alt="u1923_seg3"/>
+        <div id="u1923_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1924" class="ax_default connector1">
+        <img id="u1924_seg0" class="img " src="images/流程/u1924_seg0.svg" alt="u1924_seg0"/>
+        <img id="u1924_seg1" class="img " src="images/流程/u1924_seg1.svg" alt="u1924_seg1"/>
+        <img id="u1924_seg2" class="img " src="images/流程/u1924_seg2.svg" alt="u1924_seg2"/>
+        <img id="u1924_seg3" class="img " src="images/流程/u1924_seg3.svg" alt="u1924_seg3"/>
+        <div id="u1924_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1925" class="ax_default connector1">
+        <img id="u1925_seg0" class="img " src="images/流程/u1925_seg0.svg" alt="u1925_seg0"/>
+        <img id="u1925_seg1" class="img " src="images/流程/u1925_seg1.svg" alt="u1925_seg1"/>
+        <img id="u1925_seg2" class="img " src="images/流程/u1925_seg2.svg" alt="u1925_seg2"/>
+        <div id="u1925_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1926" class="ax_default flow_shape">
+        <div id="u1926_div" class=""></div>
+        <div id="u1926_text" class="text ">
+          <p><span>本时间周期计算结束</span></p><p><span>更新剩余服务量</span></p><p><span>库存超出量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1927" class="ax_default connector1">
+        <img id="u1927_seg0" class="img " src="images/流程/u1927_seg0.svg" alt="u1927_seg0"/>
+        <img id="u1927_seg1" class="img " src="images/流程/u1927_seg1.svg" alt="u1927_seg1"/>
+        <img id="u1927_seg2" class="img " src="images/流程/u1927_seg2.svg" alt="u1927_seg2"/>
+        <img id="u1927_seg3" class="img " src="images/流程/u1927_seg3.svg" alt="u1927_seg3"/>
+        <img id="u1927_seg4" class="img " src="images/流程/u1927_seg4.svg" alt="u1927_seg4"/>
+        <div id="u1927_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1928" class="ax_default connector1">
+        <img id="u1928_seg0" class="img " src="images/流程/u1928_seg0.svg" alt="u1928_seg0"/>
+        <img id="u1928_seg1" class="img " src="images/流程/u1928_seg1.svg" alt="u1928_seg1"/>
+        <img id="u1928_seg2" class="img " src="images/流程/u1928_seg2.svg" alt="u1928_seg2"/>
+        <div id="u1928_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1929" class="ax_default connector1">
+        <img id="u1929_seg0" class="img " src="images/流程/u1929_seg0.svg" alt="u1929_seg0"/>
+        <img id="u1929_seg1" class="img " src="images/流程/u1929_seg1.svg" alt="u1929_seg1"/>
+        <img id="u1929_seg2" class="img " src="images/流程/u1929_seg2.svg" alt="u1929_seg2"/>
+        <img id="u1929_seg3" class="img " src="images/流程/u1929_seg3.svg" alt="u1929_seg3"/>
+        <img id="u1929_seg4" class="img " src="images/流程/u1929_seg4.svg" alt="u1929_seg4"/>
+        <div id="u1929_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1930" class="ax_default connector1">
+        <img id="u1930_seg0" class="img " src="images/流程/u1930_seg0.svg" alt="u1930_seg0"/>
+        <img id="u1930_seg1" class="img " src="images/流程/u1930_seg1.svg" alt="u1930_seg1"/>
+        <img id="u1930_seg2" class="img " src="images/流程/u1930_seg2.svg" alt="u1930_seg2"/>
+        <img id="u1930_seg3" class="img " src="images/流程/u1930_seg3.svg" alt="u1930_seg3"/>
+        <img id="u1930_seg4" class="img " src="images/流程/u1930_seg4.svg" alt="u1930_seg4"/>
+        <div id="u1930_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>

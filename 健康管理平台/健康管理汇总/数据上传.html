@@ -1,0 +1,601 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>数据上传</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/数据上传/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/数据上传/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u15567" class="ax_default label">
+        <div id="u15567_div" class=""></div>
+        <div id="u15567_text" class="text ">
+          <p><span>选择时间</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u15568" class="ax_default droplist">
+        <div id="u15568_div" class=""></div>
+        <select id="u15568_input" class="u15568_input">
+          <option class="u15568_input_option" value="2020年">2020年</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u15569" class="ax_default droplist">
+        <div id="u15569_div" class=""></div>
+        <select id="u15569_input" class="u15569_input">
+          <option class="u15569_input_option" value="1月">1月</option>
+          <option class="u15569_input_option" value="2月">2月</option>
+          <option class="u15569_input_option" value="3月">3月</option>
+          <option class="u15569_input_option" value="4月">4月</option>
+          <option class="u15569_input_option" value="5月">5月</option>
+          <option class="u15569_input_option" value="6月">6月</option>
+          <option class="u15569_input_option" value="7月">7月</option>
+          <option class="u15569_input_option" value="8月">8月</option>
+          <option class="u15569_input_option" value="9月">9月</option>
+          <option class="u15569_input_option" value="10月">10月</option>
+          <option class="u15569_input_option" value="11月">11月</option>
+          <option class="u15569_input_option" value="12月">12月</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u15570" class="ax_default label">
+        <div id="u15570_div" class=""></div>
+        <div id="u15570_text" class="text ">
+          <p><span>提示：该日期已存在数据，如重复上传，将覆盖原有数据</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u15571" class="ax_default label">
+        <div id="u15571_div" class=""></div>
+        <div id="u15571_text" class="text ">
+          <p><span>设置保险产品</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u15572" class="ax_default label">
+        <div id="u15572_div" class=""></div>
+        <div id="u15572_text" class="text ">
+          <p><span style="text-decoration:underline ;">+新增保险产品</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u15573" class="ax_default label">
+        <div id="u15573_div" class=""></div>
+        <div id="u15573_text" class="text ">
+          <p><span>保险产品名称（保司名称）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Table) -->
+      <div id="u15574" class="ax_default">
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u15575" class="ax_default table_cell">
+          <img id="u15575_img" class="img " src="images/数据上传/u15575.png"/>
+          <div id="u15575_text" class="text ">
+            <p><span>服务项ID</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u15576" class="ax_default table_cell">
+          <img id="u15576_img" class="img " src="images/数据上传/u15576.png"/>
+          <div id="u15576_text" class="text ">
+            <p><span>服务项名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u15577" class="ax_default table_cell">
+          <img id="u15577_img" class="img " src="images/数据上传/u15577.png"/>
+          <div id="u15577_text" class="text ">
+            <p><span>当月使用次数</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u15578" class="ax_default table_cell">
+          <img id="u15578_img" class="img " src="images/数据上传/u15578.png"/>
+          <div id="u15578_text" class="text ">
+            <p><span>XXXX</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u15579" class="ax_default table_cell">
+          <img id="u15579_img" class="img " src="images/数据上传/u15579.png"/>
+          <div id="u15579_text" class="text ">
+            <p><span>XXXX</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u15580" class="ax_default table_cell">
+          <img id="u15580_img" class="img " src="images/数据上传/u15580.png"/>
+          <div id="u15580_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u15581" class="ax_default table_cell">
+          <img id="u15581_img" class="img " src="images/数据上传/u15581.png"/>
+          <div id="u15581_text" class="text ">
+            <p><span>XXXX</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u15582" class="ax_default table_cell">
+          <img id="u15582_img" class="img " src="images/数据上传/u15582.png"/>
+          <div id="u15582_text" class="text ">
+            <p><span>XXXX</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u15583" class="ax_default table_cell">
+          <img id="u15583_img" class="img " src="images/数据上传/u15583.png"/>
+          <div id="u15583_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u15584" class="ax_default label">
+        <div id="u15584_div" class=""></div>
+        <div id="u15584_text" class="text ">
+          <p><span style="text-decoration:underline ;">删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u15585" class="ax_default label">
+        <div id="u15585_div" class=""></div>
+        <div id="u15585_text" class="text ">
+          <p><span>保险产品名称（保司名称）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Table) -->
+      <div id="u15586" class="ax_default">
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u15587" class="ax_default table_cell">
+          <img id="u15587_img" class="img " src="images/数据上传/u15575.png"/>
+          <div id="u15587_text" class="text ">
+            <p><span>服务项ID</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u15588" class="ax_default table_cell">
+          <img id="u15588_img" class="img " src="images/数据上传/u15576.png"/>
+          <div id="u15588_text" class="text ">
+            <p><span>服务项名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u15589" class="ax_default table_cell">
+          <img id="u15589_img" class="img " src="images/数据上传/u15577.png"/>
+          <div id="u15589_text" class="text ">
+            <p><span>当月使用次数</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u15590" class="ax_default table_cell">
+          <img id="u15590_img" class="img " src="images/数据上传/u15578.png"/>
+          <div id="u15590_text" class="text ">
+            <p><span>XXXX</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u15591" class="ax_default table_cell">
+          <img id="u15591_img" class="img " src="images/数据上传/u15579.png"/>
+          <div id="u15591_text" class="text ">
+            <p><span>XXXX</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u15592" class="ax_default table_cell">
+          <img id="u15592_img" class="img " src="images/数据上传/u15580.png"/>
+          <div id="u15592_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u15593" class="ax_default table_cell">
+          <img id="u15593_img" class="img " src="images/数据上传/u15581.png"/>
+          <div id="u15593_text" class="text ">
+            <p><span>XXXX</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u15594" class="ax_default table_cell">
+          <img id="u15594_img" class="img " src="images/数据上传/u15582.png"/>
+          <div id="u15594_text" class="text ">
+            <p><span>XXXX</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u15595" class="ax_default table_cell">
+          <img id="u15595_img" class="img " src="images/数据上传/u15583.png"/>
+          <div id="u15595_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u15596" class="ax_default label">
+        <div id="u15596_div" class=""></div>
+        <div id="u15596_text" class="text ">
+          <p><span style="text-decoration:underline ;">删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u15597" class="ax_default primary_button">
+        <div id="u15597_div" class=""></div>
+        <div id="u15597_text" class="text ">
+          <p><span>确认提交</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u15598" class="ax_default text_field">
+        <div id="u15598_div" class=""></div>
+        <input id="u15598_input" type="text" value="" class="u15598_input"/>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u15599" class="ax_default text_field">
+        <div id="u15599_div" class=""></div>
+        <input id="u15599_input" type="text" value="" class="u15599_input"/>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u15600" class="ax_default text_field">
+        <div id="u15600_div" class=""></div>
+        <input id="u15600_input" type="text" value="" class="u15600_input"/>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u15601" class="ax_default text_field">
+        <div id="u15601_div" class=""></div>
+        <input id="u15601_input" type="text" value="" class="u15601_input"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u15602" class="ax_default sticky_1">
+        <div id="u15602_div" class=""></div>
+        <div id="u15602_text" class="text ">
+          <p><span>输入框，仅允许输入正整数，最大值99999999</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (数据中心) -->
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u15604" class="ax_default box_1">
+        <div id="u15604_div" class=""></div>
+        <div id="u15604_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u15605" class="ax_default box_1">
+        <div id="u15605_div" class=""></div>
+        <div id="u15605_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u15606" class="ax_default" data-left="0" data-top="107" data-width="150" data-height="40">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u15607" class="ax_default box_1">
+          <div id="u15607_div" class=""></div>
+          <div id="u15607_text" class="text ">
+            <p><span>健康管理系统</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u15608" class="ax_default icon">
+          <img id="u15608_img" class="img " src="images/首页/u219.svg"/>
+          <div id="u15608_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u15609" class="ax_default heading_3">
+        <div id="u15609_div" class=""></div>
+        <div id="u15609_text" class="text ">
+          <p><span>森罗树</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u15610" class="ax_default ellipse">
+        <img id="u15610_img" class="img " src="images/首页/u238.svg"/>
+        <div id="u15610_text" class="text ">
+          <p><span>头像</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u15611" class="ax_default heading_3">
+        <div id="u15611_div" class=""></div>
+        <div id="u15611_text" class="text ">
+          <p><span>用户名用户名</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u15612" class="ax_default" data-left="0" data-top="545" data-width="150" data-height="40">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u15613" class="ax_default box_1">
+          <div id="u15613_div" class=""></div>
+          <div id="u15613_text" class="text ">
+            <p><span>账号中心</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u15614" class="ax_default icon">
+          <img id="u15614_img" class="img " src="images/首页/u219.svg"/>
+          <div id="u15614_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u15615" class="ax_default" data-left="0" data-top="267" data-width="150" data-height="40">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u15616" class="ax_default box_1">
+          <div id="u15616_div" class=""></div>
+          <div id="u15616_text" class="text ">
+            <p><span>数据中心</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u15617" class="ax_default icon">
+          <img id="u15617_img" class="img " src="images/首页/u219.svg"/>
+          <div id="u15617_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u15618" class="ax_default" data-left="0" data-top="187" data-width="150" data-height="40">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u15619" class="ax_default box_1">
+          <div id="u15619_div" class=""></div>
+          <div id="u15619_text" class="text ">
+            <p><span>保险管理系统</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u15620" class="ax_default icon">
+          <img id="u15620_img" class="img " src="images/首页/u219.svg"/>
+          <div id="u15620_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u15621" class="ax_default" data-left="0" data-top="227" data-width="150" data-height="40">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u15622" class="ax_default box_1">
+          <div id="u15622_div" class=""></div>
+          <div id="u15622_text" class="text ">
+            <p><span>运营管理系统</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u15623" class="ax_default icon">
+          <img id="u15623_img" class="img " src="images/首页/u219.svg"/>
+          <div id="u15623_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u15624" class="ax_default box_1">
+        <div id="u15624_div" class=""></div>
+        <div id="u15624_text" class="text ">
+          <p><span>统计报表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Dynamic Panel) -->
+      <div id="u15625" class="ax_default">
+        <div id="u15625_state0" class="panel_state" data-label="State1" style="">
+          <div id="u15625_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u15626" class="ax_default box_1 selected">
+              <div id="u15626_div" class="selected"></div>
+              <div id="u15626_text" class="text ">
+                <p><span>中韩看板</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u15627" class="ax_default box_1">
+              <div id="u15627_div" class=""></div>
+              <div id="u15627_text" class="text ">
+                <p><span>服务数据</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u15628" class="ax_default box_1">
+        <div id="u15628_div" class=""></div>
+        <div id="u15628_text" class="text ">
+          <p><span>数据字典</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Dynamic Panel) -->
+      <div id="u15629" class="ax_default">
+        <div id="u15629_state0" class="panel_state" data-label="State1" style="">
+          <div id="u15629_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u15630" class="ax_default box_1 selected">
+              <div id="u15630_div" class="selected"></div>
+              <div id="u15630_text" class="text ">
+                <p><span>疾病库</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u15631" class="ax_default box_1">
+              <div id="u15631_div" class=""></div>
+              <div id="u15631_text" class="text ">
+                <p><span>症状库</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u15632" class="ax_default box_21">
+        <div id="u15632_div" class=""></div>
+        <div id="u15632_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u15633" class="ax_default" data-left="0" data-top="146" data-width="150" data-height="40">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u15634" class="ax_default box_1">
+          <div id="u15634_div" class=""></div>
+          <div id="u15634_text" class="text ">
+            <p><span>TPA服务</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u15635" class="ax_default icon">
+          <img id="u15635_img" class="img " src="images/首页/u219.svg"/>
+          <div id="u15635_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u15636" class="ax_default label">
+        <div id="u15636_div" class=""></div>
+        <div id="u15636_text" class="text ">
+          <p><span>数据看板 &gt; 数据总览</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u15637" class="ax_default ellipse">
+        <img id="u15637_img" class="img " src="images/首页/u240.svg"/>
+        <div id="u15637_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u15638" class="ax_default text_field">
+        <div id="u15638_div" class=""></div>
+        <input id="u15638_input" type="text" value="" class="u15638_input"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u15639" class="ax_default icon">
+        <img id="u15639_img" class="img " src="images/首页/u255.svg"/>
+        <div id="u15639_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+      <div id="u15603" style="display:none; visibility:hidden;"></div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
