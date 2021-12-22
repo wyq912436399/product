@@ -1,0 +1,127 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:603px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+.form_sketch {
+  border-color:transparent;
+  background-color:transparent;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u5907_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:38px;
+  height:38px;
+}
+#u5907 {
+  border-width:0px;
+  position:absolute;
+  left:257px;
+  top:148px;
+  width:38px;
+  height:38px;
+  display:flex;
+  font-size:10px;
+}
+#u5907 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u5907_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
+#u5908_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:298px;
+  height:53px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(121, 121, 121, 1);
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  text-align:left;
+}
+#u5908 {
+  border-width:0px;
+  position:absolute;
+  left:305px;
+  top:173px;
+  width:298px;
+  height:53px;
+  display:flex;
+  text-align:left;
+}
+#u5908 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 15px 2px 15px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u5908_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
+#u5909_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:169px;
+  height:17px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-size:12px;
+}
+#u5909 {
+  border-width:0px;
+  position:absolute;
+  left:305px;
+  top:148px;
+  width:169px;
+  height:17px;
+  display:flex;
+  font-size:12px;
+}
+#u5909 .text {
+  position:absolute;
+  align-self:flex-start;
+  padding:0px 0px 0px 0px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u5909_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
